@@ -19,3 +19,14 @@ function destructivelyAddElementToEndOfArray(initial, addition) {
 function accessElementInArray(initial, index) {
   return initial[index]
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(initial) {
+  initial.shift()
+  return initial
+}
+
+function removeElementFromBeginningOfArray(initial) {
+  initial.slice(1)
+  return initial
+}
+
